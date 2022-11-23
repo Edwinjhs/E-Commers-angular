@@ -1,0 +1,155 @@
+@import "~swiper/css";
+@import "~swiper/css/pagination";
+@import "~swiper/css/navigation";
+@import "~swiper/css/autoplay";
+
+:root{
+  --yelow:#fcc404;
+
+  --white:#ffff;
+
+  --lightblue: #dcecf4;
+
+  --black: #000000;
+
+/* cascada */
+  --baloot: 'Baloo Tammudu 2', sans-serif;
+/* contenido */
+  --monstserrat: 'Montserrat', sans-serif;
+/* subtitulos */
+  --noto: 'Noto Sans HK', sans-serif;
+/* para titulo */
+  --playfair: 'Playfair Display', sans-serif;
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  .review{
+      background: black;
+      padding: 20px;
+  }
+  .texto-nochange{
+      display: flex;
+      flex-direction: column;
+      font-family: var(--monstserrat);
+      color:white;
+  }
+  .texto-nochange .title-1{
+      font-size: 16px;
+      padding: 15px 110px;
+  }
+  .texto-nochange .title-2{
+      font-size: 35px;
+      padding: 10px 110px;
+
+  }
+  .big-box-slider{
+      padding: 50px 100px;
+      border-radius: 20px;
+  }
+
+  .box-slide{
+      background: var(--lightblue);
+      padding: 90px;
+      border-radius: 20px;
+      margin: 10px;
+      position: relative;
+  }
+  .customer{
+      display: flex;
+      flex-direction: row;
+
+      /* gap:10px; */
+      align-items: center;
+      padding-bottom: 10px;
+  }
+
+  .customer img{
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      padding-right: 30px;
+
+  }
+  .customer-info h4, .customer-info p{
+      color: black;
+      font-size: 30px;
+      font-family:var(--baloot);
+      line-height: 40px;
+     }
+  .customer-info p{
+      padding: 30px 0;
+}
+  .stars i{
+      color: var(--yelow);
+      font-size: 35px ;
+  }
+  .swiper-button-next,
+  .swiper-button-prev{
+      color: rgb(0, 0, 0);
+  }
+/* responsivo tablet */
+@media screen and (max-width: 1000px){
+  .customer{
+      display: flex;
+      flex-flow: row wrap;
+  }
+}
+@media screen and (max-width: 700px){
+  .stars i{
+      color: var(--yelow);
+      font-size: 20px ;
+  }
+  .review{
+      padding: 8px;
+  }
+  .customer-info h4, .customer-info p{
+      color: black;
+      font-size: 20px;
+      font-family:var(--baloot);
+      line-height: 40px;
+     }
+  .customer-info p{
+      padding: 30px 0;
+}
+  .texto-nochange .title-1{
+      font-size: 12px;
+      padding: 15px 110px;
+  }
+  .texto-nochange .title-2{
+      font-size: 20px;
+      padding: 10px 110px;
+
+  }
+  .customer img{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      padding-right: 30px;
+
+  }
+  .big-box-slider{
+      padding: 10px 30px;
+  }
+  .texto-nochange .title-2{
+      font-size: 35px;
+      padding: 10px 0px;
+
+  }
+  .box-slide{
+      background: var(--lightblue);
+      padding: 40px;
+      border-radius: 20px;
+      position: relative;
+  }
+  .texto-nochange{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}

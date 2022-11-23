@@ -1,0 +1,147 @@
+
+
+.heroe_girasol{
+  background-image: url(../../assets/image/imagenheroe.avif) ;
+  height: 800px;
+
+}
+
+
+
+.cuadros a{
+
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  background-color: black;
+  padding: 14px 20px;
+  display: inline;
+  font-style: inherit;
+  color: white;
+
+
+}
+.cuadros{
+  margin: 40px 25px 10px 0;
+
+}
+
+.heroe_first{
+
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size:12px;
+  margin-right: 272px;
+  margin-top: 180px;
+}
+
+.texto_grand {
+
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Noto Sans HK', sans-serif;
+  padding-right: 40px;
+  margin-top: 20px;
+
+}
+
+.texto_first{
+
+  margin-right: 10px ;
+  font-size: 12px;
+  border-radius: 7px;
+
+}
+
+.texto_two{
+  margin-right: 200px;
+  font-size: 12px;
+  border-radius: 7px;
+}
+.box_heroe{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: flex-end;
+
+
+}
+
+/*mediaquery table*/
+@media screen and (max-width: 1070px){
+  .box_heroe{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 65px;
+  }
+
+}
+
+/*mediaqueru telefono*/
+
+@media screen and (max-width: 552px){
+  .box_heroe{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 5px;
+
+  }
+  .texto_first{
+
+      margin-right: 10px ;
+      font-size: 12px;
+
+
+  }
+  .texto_two{
+    margin-right: 5px ;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.texto_grand {
+
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Noto Sans HK', sans-serif;
+  padding-right: 5px;
+  margin-top: 10px;
+
+}
+
+.cuadros{
+  margin: 80px 5px 5px 5px;
+
+}
+
+.heroe_girasol{
+  background:#dcecf4;
+  height: 450px;
+
+}
+
+
+.heroe_first{
+
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size:12px;
+  margin-right: 5px;
+  margin-top: 100px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

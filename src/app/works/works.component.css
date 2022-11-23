@@ -1,0 +1,232 @@
+:root{
+  --yelow:#fcc404;
+
+  --white:#ffff;
+
+  --lightblue: #dcecf4;
+
+  --black: #000000;
+
+/* cascada */
+  --baloot: 'Baloo Tammudu 2', sans-serif;
+/* contenido */
+  --monstserrat: 'Montserrat', sans-serif;
+/* subtitulos */
+  --noto: 'Noto Sans HK', sans-serif;
+/* para titulo */
+  --playfair: 'Playfair Display', sans-serif;
+  }
+
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+
+.how{
+
+   padding: 30px;
+}
+
+
+.inicial_how{
+    padding:60px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#columnas_how{
+
+    padding: 30px;
+    column-count: 4;
+    column-gap: 10px;
+    list-style: none;
+
+}
+
+#columnas_how li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_inicial{
+
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.subtitulo_inicial{
+    font-size: 40px;
+    margin-bottom:80px;
+}
+
+
+.how_linea{
+
+    color:rgba(148, 147, 147, 0.466);
+     border: 1px;
+     border-style:dashed;
+
+    }
+
+
+
+
+.how_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.how_item_titulo{
+
+
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.how_item_texto{
+
+   text-align: center;
+   font-size: 1.2rem;
+   margin-bottom: 1.5rem;
+}
+
+.how_item-computador{
+
+    height: 50px;
+    width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.how_item-lapiz{
+
+    height: 50px;
+    width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.how_item-gafas{
+
+    height: 50px;
+    width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.how_item-estrellas{
+
+    height: 50px;
+    width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:1200px){
+    .how{
+
+        padding: 40px;
+     }
+
+
+     .inicial_how{
+         padding:60px;
+         font-family: 'Montserrat', sans-serif;
+
+     }
+
+     #columnas_how{
+
+         padding: 30px;
+         column-count: 2;
+         column-gap: 10px;
+         list-style: none;
+
+     }
+
+     #columnas_how li{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .titulo_inicial{
+
+         font-size: 8px;
+         margin-bottom: 1.5rem;
+         text-align: center;
+     }
+
+     .subtitulo_inicial{
+         font-size: 20px;
+         text-align: center;
+     }
+
+
+     .how_linea{
+
+         color:rgba(148, 147, 147, 0.466);
+         border: 1px;
+         border-style:dashed;
+
+         }
+
+     .how_lista{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         list-style: none;
+
+     }
+
+
+     .how_item_titulo{
+
+
+         font-size: 1.2rem;
+         margin-bottom: 1.5rem;
+
+     }
+
+     .how_item_texto{
+
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+     }
+
+     .how_item-computador{
+
+         height: 50px;
+         width: 150px;
+         margin-bottom: 1.5rem;
+     }
+
+     .how_item-lapiz{
+
+         height: 50px;
+         width: 150px;
+         margin-bottom: 1.5rem;
+     }
+
+     .how_item-gafas{
+
+         height: 50px;
+         width: 150px;
+         margin-bottom: 1.5rem;
+     }
+
+     .how_item-estrellas{
+
+         height: 50px;
+         width: 150px;
+         margin-bottom: 1.5rem;
+     }
+}

@@ -1,0 +1,69 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background: #fcc404;
+  margin: 0%;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  align-items: center;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+}
+
+.logo .fa-solid{
+font-size: 30px;
+padding: 10px 15px 10px 30px;
+}
+
+.menu{
+  margin-right: 20px;
+}
+
+header .menu a{
+  text-decoration: none;
+  color: #000000;
+  font-family:'Montserrat', sans-serif;
+  font-weight:500;
+  padding: 20px;
+
+}
+
+.menu a:hover{
+ color: white;
+
+}
+
+.logo .nombre-empresa{
+font-size: 35px;
+font-style: italic;
+font-family: 'Playfair Display', sans-serif ;
+font-weight: 900;
+}
+header .imagen-oculta{
+  display: none;
+}
+
+/*mediaquery table*/
+@media screen and (max-width: 900px){
+  header{
+    flex-direction:column;
+     }
+     .logo{
+      padding-bottom: 10px;}
+  }
+  /*mediaqueru telefono*/
+
+@media screen and (max-width: 410px){
+  .menu{
+      display: none;
+   }
+   header .imagen-oculta{
+      display: block;
+   }
+}

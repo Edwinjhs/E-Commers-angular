@@ -1,0 +1,84 @@
+<section class="review" id="review">
+    <div class="texto-nochange">
+        <h3 class="title-1">Verified customer Reviews</h3>
+        <h2 class="title-2">Customer lookbook</h2>
+    </div>
+
+    <div class="swiper-container big-box-slider">
+        <div class="swiper-wrapper box-wrapper">
+            <swiper class="my-swiper"
+            swiper [navigation]="true"
+            [slidesPerView]="1"
+            [spaceBetween]="50"
+            [centeredSlides]="true"
+            [autoplay]="{
+              delay:2500,
+              disableOnInteraction: false
+            }"
+            [pagination]="{
+              clickable:true
+            }"
+            [navigation]="true">
+                <ng-template swiperSlide>
+                    <div class="swiper-slide box-slide">
+                        <div class="customer">
+                            <img src="../../assets/image/customer0.jpg" alt="customer 0 niña">
+                            <div class="customer-info">
+                                <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>"It's such a game changer, and if you wear prescription glasses, i'd say life-changing."</p>
+                            <h4>MIA C</h4>
+                        </div>
+                    </div>
+                </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div class="swiper-slide box-slide">
+                        <div class="customer">
+                            <img src="../../assets/image/customer1.jpg" alt="customer 1 niña">
+                            <div class="customer-info">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde repellat suscipit qui."</p>
+                                <h4>PEPITA P</h4>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template swiperSlide>
+                    <div class="swiper-slide box-slide">
+                        <div class="customer">
+                            <img src="../../assets/image/customer2.jpg" alt ="customer-info">
+                            <div class="customer-info">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iste in laborum Inventore."</p>
+                                <h4>CATALINE P</h4>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </swiper>
+        </div>
+    </div>
+</section>
+
+
+
+
+
